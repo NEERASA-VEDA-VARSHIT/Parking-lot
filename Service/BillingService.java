@@ -58,8 +58,7 @@ public class BillingService {
                         exitTime
                 ).toMinutes();
 
-        // V1 assumption:
-        // $10 per started hour.
+
         long hoursParked =
                 (minutesParked + 59) / 60;
 
